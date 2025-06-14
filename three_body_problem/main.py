@@ -46,6 +46,7 @@ def simulate_live(
     ax.xaxis.set_pane_color((0, 0, 0, 1))
     ax.yaxis.set_pane_color((0, 0, 0, 1))
     ax.zaxis.set_pane_color((0, 0, 0, 1))
+    ax.set_axis_off()
 
     line1, = ax.plot([], [], [], color='red', lw=0.5, alpha=0.7)
     line2, = ax.plot([], [], [], color='white', lw=0.5, alpha=0.7)
